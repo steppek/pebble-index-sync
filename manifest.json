@@ -1,0 +1,9 @@
+{
+  "id": "pebble-index-sync",
+  "name": "Pebble Index Sync",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Sync timestamped entries from Pebble Index to Daily Notes in chronological order.",
+  "author": "steppek",
+  "isDesktopOnly": false
+}

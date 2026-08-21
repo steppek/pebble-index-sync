@@ -1,0 +1,21 @@
+{
+  "name": "pebble-index-sync",
+  "version": "1.0.0",
+  "description": "Sync entries from Pebble Index note to chronological outlines on Daily Notes in Obsidian.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production"
+  },
+  "keywords": ["obsidian", "obsidian-plugin", "pebble", "daily-notes"],
+  "author": "steppek",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.20.1",
+    "obsidian": "latest",
+    "tslib": "2.6.2",
+    "typescript": "5.3.3"
+  }
+}
